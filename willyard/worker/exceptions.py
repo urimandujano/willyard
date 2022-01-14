@@ -1,0 +1,2 @@
+class WillyardException(Exception):
+    pass

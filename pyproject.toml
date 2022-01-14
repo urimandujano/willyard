@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "willyard"
+version = "0.1.0"
+description = ""
+authors = ["Uriel Mandujano <uriel@globus.org>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+black = "^20.8b1"
+tenacity = "^6.2.0"
+fastapi = "^0.61.2"
+uvicorn = "^0.12.2"
+aiohttp = "^3.7.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^20.8b1"
+mypy = "^0.790"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
